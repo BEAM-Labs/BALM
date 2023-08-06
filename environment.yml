@@ -1,0 +1,19 @@
+name: BALM
+channels:
+  - huggingface
+  - pytorch
+  - bioconda
+  - defaults
+dependencies:
+  - anarci=2021.02.04=pyhdfd78af_0
+  - numpy=1.21.5=py39he7a7128_1
+  - pandas=1.4.2=py39h295c915_0
+  - pip=21.2.4=py39h06a4308_0
+  - python=3.9.12=h12debd9_0
+  - pytorch=1.12.1=py3.9_cuda11.3_cudnn8.3.2_0
+  - pytorch-mutex=1.0=cuda
+  - pip:
+    - datasets==2.4.0
+    - huggingface-hub==0.11.1
+    - transformers==4.24.0
+prefix: /home/hongtai/anaconda3
