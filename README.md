@@ -45,14 +45,24 @@ with torch.no_grad():
 ```
 
 ## BALMFold server
-[BALMFold](https://beamlab-sh.com/models/BALMFold) is based on BALM to predict antibody tertiary structure with primary sequence. Just try it. :)
+BALMFold is based on BALM to predict antibody tertiary structure with primary sequence. The online server is freely available at [BALMFold server](https://beamlab-sh.com/models/BALMFold). Just try it. :)
 
-## Citations
+## Citation
 If you find our model is useful for you, please cite as:
 
-TODO
+```
+@article{jing2023accurate,
+  title={Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model},
+  author={Jing, Hongtai and Gao, Zhengtao and Xu, Sheng and Shen, Tao and Peng, Zhangzhi and He, Shwai and You, Tao and Ye, Shuang and Lin, Wei and Sun, Siqi},
+  journal={bioRxiv},
+  pages={2023--08},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
 
 The architecture and pre-training process of BALM builds on the ESM and Hugging Face modeling framework. We really appreciate the work of [ESM](https://github.com/facebookresearch/esm) and [Hugging Face](https://huggingface.co/) team.
 
 
-
+## License
+This source code is licensed under the MIT license found in the `LICENSE` file in the root directory of this source tree.
