@@ -51,13 +51,15 @@ BALMFold is based on BALM to predict antibody tertiary structure with primary se
 If you find our model is useful for you, please cite as:
 
 ```
-@article{jing2023accurate,
-  title={Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model},
+@article{jing2024accurate,
+  title={Accurate prediction of antibody function and structure using bio-inspired antibody language model},
   author={Jing, Hongtai and Gao, Zhengtao and Xu, Sheng and Shen, Tao and Peng, Zhangzhi and He, Shwai and You, Tao and Ye, Shuang and Lin, Wei and Sun, Siqi},
-  journal={bioRxiv},
-  pages={2023--08},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
+  journal={Briefings in Bioinformatics},
+  volume={25},
+  number={4},
+  pages={bbae245},
+  year={2024},
+  publisher={Oxford University Press}
 }
 ```
 
